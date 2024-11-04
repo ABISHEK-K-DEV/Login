@@ -1,0 +1,24 @@
+$margin-top: 50px;
+$padding: 10px;
+$font-size: 16px;
+$width: 300px;
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $margin-top;
+
+  .search-bar {
+    padding: $padding;
+    font-size: $font-size;
+    width: $width;
+    margin-right: $padding;
+  }
+
+  button {
+    padding: $padding;
+    font-size: $font-size;
+    cursor: pointer;
+  }
+}
